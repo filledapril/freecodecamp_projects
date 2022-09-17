@@ -1,0 +1,30 @@
+:root {
+    font-size: 16px;
+}
+
+audio { 
+    display: none;}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;;
+    position: relative;
+}
+
+
+footer p {
+    font-size: .1rem;
+    margin: 0;
+    position: relative;
+}
+
+body::before {    
+    content: "";
+    background-image: url('./source/image/background.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
